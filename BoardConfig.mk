@@ -27,5 +27,8 @@ SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_X = 453
 SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_Y = 1823
 SOONG_CONFIG_ONEPLUS_KONA_FOD_SIZE = 174
 
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
 # inherit from the proprietary version
 -include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
