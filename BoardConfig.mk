@@ -17,7 +17,7 @@
 # Inherit from oneplus sm8250-common
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/instantnoodlep
+DEVICE_PATH := device/oneplus/instantnoodle
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -34,4 +34,4 @@ SOONG_CONFIG_ONEPLUS_KONA_FOD_SIZE = 232
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # inherit from the proprietary version
--include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
+-include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
